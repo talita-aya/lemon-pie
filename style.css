@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Bellota+Text:wght@300;700&display=swap');
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Bellota Text', Arial, Helvetica, sans-serif;
+  color: #989898;
+}
+
+.container {
+  width: 1258px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #F1F1F1;
+  display: flex;
+}
+
+.navbar ul {
+  width: 699px;
+  height: 92px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 122px;
+}
+
+.navbar ul li {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar ul li:hover {
+  color: #7b7b7b;
+  font-weight: 700;
+  background-color: #eaeaea;
+}
