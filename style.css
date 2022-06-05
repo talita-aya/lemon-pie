@@ -38,6 +38,7 @@
   background-color: transparent;
   padding: 5px 10px;
   border-radius: 5px;
+  letter-spacing: 2px;
 }
 
 .navbar ul li:hover {
@@ -74,4 +75,42 @@
   font-style: italic;
   line-height: 30px;
   color: #B4BAA1;
+}
+
+.about-us {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Antic Didone';
+  font-size: 50px;
+  color: #989898;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  padding-top: 70px;
+}
+
+.about-us p {
+  width: 720px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  line-height: 41px;
+  margin-top: 47px;
+}
+
+.about-content img {
+  margin-top: -60px;
+  margin-bottom: 60px;
+}
+
+.products {
+  background-image: url(assets/background-products.png);
 }
