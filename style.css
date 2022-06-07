@@ -94,7 +94,7 @@
   font-size: 50px;
   color: #989898;
   font-weight: 400;
-  letter-spacing: 0.2rem;
+  letter-spacing: 1rem;
   padding-top: 70px;
 }
 
@@ -187,4 +187,39 @@
 @keyframes fade {
   from {opacity: .5}
   to {opacity: 2}
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+
+.content p, .content p b {
+  font-size: 20px;
+  margin-top: 27px;
+  background-color: #989898;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.content p b {
+  padding-left: 0px;
+}
+
+.content iframe {
+  margin-bottom: 50px;
 }
