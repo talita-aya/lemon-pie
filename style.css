@@ -8,6 +8,7 @@
   list-style: none;
   font-family: 'Bellota Text', Arial, Helvetica, sans-serif;
   color: #989898;
+  text-decoration: none;
 }
 
 .container {
@@ -223,3 +224,11 @@ footer {
 .content iframe {
   margin-bottom: 50px;
 }
+
+.header-invisible-box {
+  position: relative;
+  top: -91px;
+  height: 0;
+  content: "";
+}
+
