@@ -109,8 +109,9 @@
 }
 
 .about-content img {
-  margin-top: -60px;
-  margin-bottom: 60px;
+  margin-top: -80px;
+  margin-bottom: 40px;
+  width: 33%;
 }
 
 .products {
@@ -120,7 +121,7 @@
 .slideshow-container {
   width: 100%;
   position: relative;
-  margin: 86px auto 0 auto;
+  margin: 75px auto 0 auto;
 }
 
 .Containers {
@@ -169,7 +170,7 @@
   cursor: pointer;
   height: 10px;
   width: 10px;
-  margin: 5px 3px 20px 3px;
+  margin: 5px 3px 30px 3px;
   background-color: #CED4B8;
   border-radius: 50%;
   display: inline-block;
@@ -199,6 +200,22 @@ footer {
 .content {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 67px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+}
+
+.phone:first-child {
+  margin-top: 30px;
+}
+
+.phone span {
+  font-size: 20px;
+  color: #989898;
+  padding: 28px 35px;
 }
 
 .socials {
@@ -206,7 +223,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 27px;
+  margin-top: 62px;
 }
 
 .content p, .content p b {
