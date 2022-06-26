@@ -83,23 +83,26 @@
 }
 
 .about-us {
-  height: 100%;
+  height: calc(100vh - 91px);
   display: flex;
   flex-direction: column;
 }
 
 .about-content {
   display: flex;
+  height: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .title {
+  display: flex;
   font-family: 'Antic Didone';
   font-size: 50px;
   color: #989898;
   font-weight: 400;
   letter-spacing: 1rem;
-  padding-top: 70px;
+  padding-top: 5%;
 }
 
 .about-us p {
@@ -108,23 +111,26 @@
   font-weight: 400;
   letter-spacing: 0.2rem;
   line-height: 41px;
-  margin-top: 47px;
 }
 
 .about-content img {
   margin-top: -80px;
   margin-bottom: 40px;
-  width: 33%;
+  width: 30%;
 }
 
 .products {
+  height: calc(100vh - 91px);
   background-image: url(assets/background-products.png);
 }
 
 .slideshow-container {
   width: 100%;
   position: relative;
-  margin: 75px auto 0 auto;
+  margin: 40px auto 0 auto;
+  height: 60%;
+  display: flex;
+  align-items: center;
 }
 
 .Containers {
