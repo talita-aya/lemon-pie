@@ -9,6 +9,8 @@
   font-family: 'Bellota Text', Arial, Helvetica, sans-serif;
   color: #989898;
   text-decoration: none;
+
+  scroll-behavior: smooth;
 }
 
 .container {
