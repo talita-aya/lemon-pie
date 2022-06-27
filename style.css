@@ -258,3 +258,36 @@ footer {
   content: "";
 }
 
+
+@media only screen and (max-width: 1270px) {
+  .container {
+    width: 1000px;
+  }
+
+  .about-us p {
+    width: 500px;
+  }
+
+  .about-content img {
+    width: 40%;
+    margin-top: -60px;
+  }
+
+  .Containers {
+    margin-top: 80px;
+  }
+
+  .Containers img {
+    margin: 0 40px;
+  }
+
+  .content iframe {
+    margin-left: 100px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 500px) {
+
+}
